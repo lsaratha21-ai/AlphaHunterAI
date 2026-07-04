@@ -6,12 +6,34 @@ FastAPI application instance.
 
 from __future__ import annotations
 
+from contextlib import asynccontextmanager
+
 from fastapi import FastAPI
 
 from app import __app_name__, __version__
 from app.config import get_settings
 from app.database import get_database_connection
 from app.utils import setup_logging
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI) -> None:
+    """Manage application lifespan events.
+
+    Args:
+        app: FastAPI application instance.
+    """
+    settings = get_settings()
+    setup_logging(
+        log_level=settings.log_level,
+        log_format=settings.log_format,
+        log_file=settings.log_file,
+    )
+
+    db = get_database_connection()
+    db.connect()
+    yield
+    db.close()
 
 
 def create_app() -> FastAPI:
@@ -21,30 +43,14 @@ def create_app() -> FastAPI:
         Configured FastAPI application instance.
     """
     settings = get_settings()
-    setup_logging(
-        log_level=settings.log_level,
-        log_format=settings.log_format,
-        log_file=settings.log_file,
-    )
 
     app = FastAPI(
         title=settings.app_name,
         version=settings.app_version,
         description="AI-powered investment research platform for Indian stock markets.",
         debug=settings.app_debug,
+        lifespan=lifespan,
     )
-
-    @app.on_event("startup")
-    def startup_event() -> None:
-        """Initialize application resources on startup."""
-        db = get_database_connection()
-        db.connect()
-
-    @app.on_event("shutdown")
-    def shutdown_event() -> None:
-        """Release application resources on shutdown."""
-        db = get_database_connection()
-        db.close()
 
     @app.get("/")
     def health_check() -> dict[str, str]:
