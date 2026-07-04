@@ -9,6 +9,7 @@ from app.alpha.before_crowd import BeforeTheCrowdFactors, BeforeTheCrowdScore
 from app.alpha.before_crowd_scorer import BeforeTheCrowdScorer
 from app.alpha.models import AlphaScore, AlphaScoreComponents
 from app.alpha.research_scorers import ResearchScorer
+from app.backtest import ExitRules, RecommendationTracker
 from app.financials import FinancialEngine, FinancialScore
 from app.management import GuidanceEngine, GuidanceScore
 from app.sectors import SectorRotationEngine, SectorScore
@@ -22,6 +23,7 @@ class ResearchProfileEngine:
         """Initialize the ResearchProfileEngine."""
         self.scorer = ResearchScorer()
         self.before_crowd_scorer = BeforeTheCrowdScorer()
+        self.recommendation_tracker = RecommendationTracker()
         self.financial_engine = FinancialEngine()
         self.technical_engine = TechnicalEngine()
         self.sector_engine = SectorRotationEngine()
@@ -373,3 +375,33 @@ class ResearchProfileEngine:
                 reasoning += "Concerns: " + ", ".join(weaknesses) + "."
 
         return reasoning
+
+    def create_recommendation_tracking(
+        self,
+        alpha_score: AlphaScore,
+        entry_price: float,
+        custom_exit_rules: ExitRules | None = None,
+    ):
+        """Create a recommendation tracking record from AlphaScore.
+
+        Args:
+            alpha_score: AlphaScore from research profile.
+            entry_price: Entry price for the recommendation.
+            custom_exit_rules: Custom exit rules (optional).
+
+        Returns:
+            RecommendationTracking record.
+        """
+        # Create exit rules from AlphaScore if not provided
+        if custom_exit_rules is None:
+            custom_exit_rules = ExitRules(
+                target_price=alpha_score.target_price,
+                stop_loss=alpha_score.stop_loss,
+                time_based_exit_days=180,  # Default 6 months
+            )
+
+        return self.recommendation_tracker.create_from_alpha_score(
+            alpha_score,
+            entry_price,
+            custom_exit_rules,
+        )
