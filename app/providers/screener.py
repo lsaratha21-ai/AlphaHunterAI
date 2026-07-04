@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import aiohttp
 from datetime import date
 
 from app.core.exceptions import ProviderError
@@ -40,21 +41,32 @@ class ScreenerProvider(Provider):
         Raises:
             ProviderError: If data fetch fails.
         """
-        # TODO: Implement actual Screener.in API integration
-        # For now, return mock data
-        return StockData(
-            symbol=symbol.upper(),
-            name=f"{symbol.upper()} Industries",
-            price=250.0,
-            market_cap=25000000000.0,
-            pe_ratio=18.0,
-            debt_to_equity=0.4,
-            revenue_growth=30.0,
-            earnings_growth=40.0,
-            promoter_holdings=65.0,
-            sector="Manufacturing",
-            last_updated=date.today(),
-        )
+        try:
+            url = f"{self.config.base_url}/api/company/{symbol}/"
+            async with aiohttp.ClientSession() as session:
+                async with session.get(url, headers={"User-Agent": "Mozilla/5.0"}) as response:
+                    if response.status != 200:
+                        raise ProviderError(f"Failed to fetch data for {symbol}: HTTP {response.status}")
+                    
+                    data = await response.json()
+                    
+                    return StockData(
+                        symbol=symbol.upper(),
+                        name=data.get("name", f"{symbol.upper()}"),
+                        price=float(data.get("price", {}).get("current", 0)),
+                        market_cap=float(data.get("market_cap", {}).get("value", 0)),
+                        pe_ratio=float(data.get("pe_ratio", {}).get("value", 0)),
+                        debt_to_equity=float(data.get("debt_to_equity", {}).get("value", 0)),
+                        revenue_growth=float(data.get("revenue_growth", {}).get("value", 0)),
+                        earnings_growth=float(data.get("earnings_growth", {}).get("value", 0)),
+                        promoter_holdings=float(data.get("promoter_holdings", {}).get("value", 0)),
+                        sector=data.get("sector", "Unknown"),
+                        last_updated=date.today(),
+                    )
+        except aiohttp.ClientError as e:
+            raise ProviderError(f"Network error fetching data for {symbol}: {e}")
+        except (KeyError, ValueError, TypeError) as e:
+            raise ProviderError(f"Error parsing data for {symbol}: {e}")
 
     async def fetch_multiple_stocks(self, symbols: list[str]) -> list[StockData]:
         """Fetch data for multiple stocks from Screener.in.
