@@ -42,14 +42,79 @@ AlphaHunterAI provides a systematic approach to stock screening with:
 
 ```
 AlphaHunterAI/
+├── app/                                    # Python application source code
+│   ├── ai/                                 # AI/ML analysis modules
+│   ├── alerts/                             # Alerting system
+│   ├── config/                             # Configuration management
+│   ├── core/                               # Core domain components
+│   ├── dashboard/                          # Web dashboard
+│   ├── database/                           # Database connection managers
+│   ├── financials/                         # Financial analysis modules
+│   ├── ingestion/                          # Data ingestion pipelines
+│   ├── management/                         # Management commands
+│   ├── models/                             # Data models
+│   ├── portfolio/                          # Portfolio management
+│   ├── providers/                          # Data providers
+│   ├── reports/                            # Report generation
+│   ├── scoring/                            # Scoring engine
+│   ├── sectors/                            # Sector analysis
+│   ├── technical/                          # Technical analysis
+│   ├── utils/                              # Utility modules
+│   └── tests/                              # Unit tests
+├── configs/                                # Configuration files
+├── data/                                   # Data storage (bronze/silver/gold)
+│   ├── bronze/                             # Raw ingested data
+│   ├── silver/                             # Cleaned and transformed data
+│   └── gold/                               # Aggregated and feature data
+├── docs/                                   # Documentation
+├── logs/                                   # Application logs
+├── notebooks/                              # Jupyter notebooks
+├── outputs/                                # Generated outputs
+├── scripts/                                # Utility scripts
 ├── MASTER_Stock_Screening_Framework.txt    # Complete screening framework
 ├── Stock_Screening_Step_by_Step_Guide.txt  # Platform-specific screening guides
 ├── Stock_Candidates_From_Web_Search.txt    # Preliminary stock candidates
 ├── Small_Cap_Stocks_Heavily_Corrected_Ready_For_Recovery.txt  # Sample analysis
+├── pyproject.toml                          # Python project configuration
+├── requirements.txt                        # Production dependencies
+├── Makefile                                # Development commands
+├── Dockerfile                              # Production Docker image
+├── docker-compose.yml                      # Docker orchestration
+├── .github/workflows/ci.yml                # GitHub Actions CI
+├── ruff.toml                               # Ruff linter configuration
+├── .pre-commit-config.yaml                 # Pre-commit hooks
+├── .env.example                            # Environment variables template
 └── README.md
 ```
 
 ## Getting Started
+
+### Python Application Setup
+
+1. **Clone the repository** (Python 3.12 required)
+2. **Create a virtual environment**
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+   ```
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   pip install -e ".[dev]"
+   ```
+4. **Set up environment variables**
+   ```bash
+   cp .env.example .env
+   # Edit .env with your configuration
+   ```
+5. **Run the application**
+   ```bash
+   python -m app
+   # Or via CLI
+   python -m app serve
+   ```
+
+### Stock Screening Framework
 
 1. Review the `MASTER_Stock_Screening_Framework.txt` for complete criteria
 2. Use `Stock_Screening_Step_by_Step_Guide.txt` to run screeners on:
@@ -61,6 +126,32 @@ AlphaHunterAI/
 5. Select stocks that pass 5/5 avoid criteria and 4+/8 consider criteria
 
 ## Usage
+
+### API Server
+
+Run the FastAPI application:
+```bash
+python -m app serve
+```
+
+Access the API at http://localhost:8000
+- Health check: `GET /`
+- Detailed health: `GET /health`
+- Interactive docs: `GET /docs`
+
+### Development Commands
+
+```bash
+make install-dev     # Install development dependencies
+make lint            # Run Ruff linter
+make format          # Format code with Ruff and Black
+make test            # Run tests
+make test-cov        # Run tests with coverage
+make type-check      # Run MyPy type checker
+make quality         # Run all quality checks
+make docker-build    # Build Docker image
+make docker-up       # Start Docker containers
+```
 
 ### Quick Screening
 Use the screening checklist in the MASTER framework for initial evaluation.
