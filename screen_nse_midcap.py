@@ -16,7 +16,7 @@ class NSESmallMidCapScreener:
         self.max_market_cap = 200000000000  # ₹20,000 Cr
         self.investment_amount = 200000  # ₹2,00,000
         self.holding_period_months = 2  # 2-3 months
-        self.target_return = 15.0  # 15% or higher
+        self.target_return = 20.0  # 20% or higher
         self.max_stocks = 5
         self.market_data_fetcher = MarketDataFetcher()
 
@@ -165,8 +165,8 @@ class NSESmallMidCapScreener:
         stop_loss = current_price * 0.92
 
         # Calculate targets
-        target1 = current_price * 1.10  # 10% target
-        target2 = current_price * 1.20  # 20% target
+        target1 = current_price * 1.15  # 15% intermediate target
+        target2 = current_price * 1.20  # 20% main target
 
         return {
             "rank": rank,
@@ -318,7 +318,7 @@ async def main() -> None:
     print(f"Investment Amount: ₹{200000:,.0f}")
     print(f"Market Cap Range: ₹2,000 Cr to ₹20,000 Cr")
     print(f"Holding Period: 2-3 months")
-    print(f"Target Return: 15% or higher")
+    print(f"Target Return: 20% or higher")
     print(f"Risk Profile: Moderate")
     print(f"Maximum Stocks: 5")
     print()
@@ -522,9 +522,9 @@ async def main() -> None:
     print()
 
     print("Expected Returns:")
-    print(f"  If Target 1 achieved: +10% → ₹{total_invested * 1.10:,.0f}")
+    print(f"  If Target 1 achieved: +15% → ₹{total_invested * 1.15:,.0f}")
     print(f"  If Target 2 achieved: +20% → ₹{total_invested * 1.20:,.0f}")
-    print(f"  Average: +15% → ₹{total_invested * 1.15:,.0f}")
+    print(f"  Average: +17.5% → ₹{total_invested * 1.175:,.0f}")
     print()
 
     print("=" * 100)
