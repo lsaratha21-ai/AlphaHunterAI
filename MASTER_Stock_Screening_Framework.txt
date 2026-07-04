@@ -1,0 +1,875 @@
+================================================================================
+                    MASTER STOCK SCREENING FRAMEWORK
+                      Complete Selection Guide
+                          JULY 2026
+================================================================================
+
+This is your complete stock screening framework. Use this document to evaluate
+any stock for investment consideration. All criteria are consolidated here
+for easy reference and consistent application.
+
+================================================================================
+                            TABLE OF CONTENTS
+================================================================================
+
+1. AVOID CRITERIA (5 Red Flags - Must PASS ALL)
+2. CONSIDER CRITERIA (7 Green Flags - Need 4+ to PASS)
+3. SCREENING CHECKLIST (Quick Evaluation)
+4. DETAILED EVALUATION TEMPLATE (Deep Analysis)
+5. SEARCH STRATEGY (How to Find Stocks)
+6. EMERGING SECTORS LIST
+7. DATA SOURCES
+
+================================================================================
+                        AVOID CRITERIA (RED FLAGS)
+================================================================================
+
+These are the 5 criteria that MUST ALL PASS before considering any stock.
+If ANY of these FAIL, immediately REJECT the stock.
+
+1. STOCKS THAT HAVE ALREADY DOUBLED WITHOUT NEW CATALYST
+   - Price increased 100%+ in last 3-6 months
+   - No fundamental business changes to justify the move
+   - Driven by speculation, hype, or market momentum
+   - RISK: Overvalued, likely to correct sharply
+   
+   HOW TO IDENTIFY:
+   - Check 3-month and 6-month price performance
+   - Look for news/events during the period (earnings, contracts, sector tailwinds)
+   - If no clear catalyst, AVOID
+
+2. DECLINING PROFITS
+   - Net profit decreasing for 2+ consecutive quarters
+   - Profit margins shrinking over time
+   - Earnings growth negative YoY or QoQ
+   - RISK: Business deterioration, competitive pressure
+   
+   HOW TO IDENTIFY:
+   - Review last 4-8 quarters of P&L statements
+   - Check profit margin trends (gross margin, operating margin, net margin)
+   - Compare with industry peers
+
+3. VERY HIGH DEBT
+   - Debt-to-Equity ratio > 2.0
+   - Interest coverage ratio < 2.0 (EBIT/Interest)
+   - Debt increasing faster than assets/business growth
+   - RISK: Financial distress, bankruptcy risk in downturns
+   
+   HOW TO IDENTIFY:
+   - Check Debt-Equity ratio on balance sheet
+   - Calculate Interest Coverage Ratio = EBIT / Interest Expense
+   - Review debt trends over last 3-5 years
+
+4. POOR LIQUIDITY
+   - Current ratio < 1.0 (Current Assets / Current Liabilities)
+   - Quick ratio < 0.5 (Quick Assets / Current Liabilities)
+   - Cash conversion cycle > 90 days
+   - RISK: Unable to meet short-term obligations
+   
+   HOW TO IDENTIFY:
+   - Current Ratio = Current Assets / Current Liabilities
+   - Quick Ratio = (Current Assets - Inventory) / Current Liabilities
+   - Check cash flow statement for operating cash flow trends
+
+5. SOCIAL MEDIA PROMOTION WITHOUT BUSINESS IMPROVEMENT
+   - Heavy promotion on Twitter, YouTube, Telegram without fundamentals
+   - Influencer-driven price pumps
+   - No corresponding improvement in financials or operations
+   - RISK: Pump and dump schemes, manipulation
+   
+   HOW TO IDENTIFY:
+   - Cross-reference social media buzz with actual business news
+   - Check if company has released meaningful updates
+   - Look for unusual volume spikes without news
+
+
+================================================================================
+                        CONSIDER CRITERIA (GREEN FLAGS)
+================================================================================
+
+These are the 8 positive criteria. A stock needs to meet at least 4 of these
+to PASS the screening. The more criteria met, the better the stock.
+
+1. PROFIT GROWTH ≥ 40%
+   - Net profit growth ≥ 40% YoY or QoQ
+   - Consistent profit growth over multiple periods
+   - Improving profit margins
+   - INDICATOR: Strong business momentum, operational efficiency
+   
+   HOW TO VERIFY:
+   - Compare latest quarter profit with same quarter last year (YoY)
+   - Compare with previous quarter (QoQ, seasonally adjusted)
+   - Check profit margin expansion
+
+2. SALES GROWTH ≥ 30%
+   - Revenue growth ≥ 30% YoY or QoQ
+   - Sustainable sales growth (not one-time contracts)
+   - Market share gains or industry growth
+   - INDICATOR: Business expansion, demand strength
+   
+   HOW TO VERIFY:
+   - Compare latest quarter revenue with same quarter last year
+   - Analyze revenue composition (recurring vs one-time)
+   - Compare with industry growth rates
+
+3. TRADING SIDEWAYS FOR 3-6 MONTHS
+   - Price consolidation in narrow range (±10-15%)
+   - Building base for potential breakout
+   - Low volatility during consolidation
+   - INDICATOR: Accumulation phase, low risk entry point
+   
+   HOW TO VERIFY:
+   - Check 3-month and 6-month price charts
+   - Calculate price range: (High - Low) / Average Price
+   - Look for consolidation patterns (rectangle, triangle)
+
+4. BREAKOUT ON 3X+ VOLUME
+   - Price breaks out of consolidation range
+   - Volume 3x+ higher than average daily volume
+   - Strong momentum with institutional participation
+   - INDICATOR: Institutional buying, trend start
+   
+   HOW TO VERIFY:
+   - Calculate average daily volume over 20-50 days
+   - Check if breakout day volume ≥ 3x average
+   - Confirm price breaks above resistance level
+
+5. LOW DEBT
+   - Debt-to-Equity ratio < 0.5
+   - Interest coverage ratio > 5.0
+   - Net-debt free or minimal debt
+   - INDICATOR: Financial flexibility, lower risk
+   
+   HOW TO VERIFY:
+   - Debt-Equity ratio should be < 0.5
+   - Interest Coverage = EBIT / Interest Expense > 5.0
+   - Check if company has net cash (Cash > Debt)
+
+6. PROMOTER HOLDINGS ≥ 50%
+   - Promoter holding ≥ 50% (shows confidence)
+   - Promoter holding stable or increasing (not selling)
+   - No pledged shares (or minimal pledge)
+   - INDICATOR: Management confidence, alignment with shareholders
+   
+   HOW TO VERIFY:
+   - Check shareholding pattern on exchange filings
+   - Look at promoter holding trends over last 1-2 years
+   - Check for pledged shares percentage
+
+7. EMERGING SECTOR
+   - Company operates in high-growth emerging sector
+   - Sector expected to grow 20%+ annually over next 3-5 years
+   - Government policy support or structural tailwinds
+   - INDICATOR: Favorable macro environment, sector momentum
+   
+   HOW TO VERIFY:
+   - Research sector growth projections (industry reports, government data)
+   - Check for policy support (PLI schemes, regulatory changes, incentives)
+   - Analyze secular trends (digitalization, green energy, EV, manufacturing, etc.)
+   - Compare sector growth vs overall GDP growth
+
+8. MANAGEMENT CONFIDENCE & GUIDANCE
+   - Management provides clear, realistic guidance
+   - Confident about future growth prospects
+   - Good track record of meeting guidance
+   - Transparent communication with shareholders
+   - INDICATOR: Leadership quality, execution capability
+   
+   HOW TO VERIFY:
+   - Read recent investor presentations and conference call transcripts
+   - Check if management has met previous guidance
+   - Look for consistency in communication
+   - Assess management's track record and credibility
+   - Check for insider buying (shows confidence)
+
+
+================================================================================
+                        SCREENING CHECKLIST (QUICK EVALUATION)
+================================================================================
+
+Use this checklist for quick initial screening of any stock.
+
+STOCK NAME: _________________________________  SECTOR: _____________________
+DATE: ______________________  CURRENT PRICE: ₹__________
+
+AVOID CRITERIA (Must PASS all to proceed):
+[ ] 1. NOT doubled in 3-6 months without catalyst
+    - 3-month return: _____%  6-month return: _____%
+    - Catalyst identified: Yes/No
+    
+[ ] 2. Profits NOT declining (2+ quarters)
+    - Latest Q profit: ₹_____  Previous Q: ₹_____  YoY: _____%
+    - Trend: Improving/Stable/Declining
+    
+[ ] 3. Debt NOT very high
+    - Debt-Equity ratio: _____  (Should be < 2.0)
+    - Interest coverage: _____x  (Should be > 2.0)
+    
+[ ] 4. Liquidity NOT poor
+    - Current ratio: _____  (Should be > 1.0)
+    - Quick ratio: _____  (Should be > 0.5)
+    
+[ ] 5. NOT social media hype without fundamentals
+    - Social media buzz: High/Medium/Low
+    - Business improvement: Yes/No
+
+IF ANY AVOID CRITERIA FAIL → REJECT STOCK
+
+
+CONSIDER CRITERIA (Should meet 4+ of 7):
+[ ] 1. Profit growth ≥ 40%
+    - YoY profit growth: _____%  QoQ: _____%
+    - PASS/FAIL
+    
+[ ] 2. Sales growth ≥ 30%
+    - YoY revenue growth: _____%  QoQ: _____%
+    - PASS/FAIL
+    
+[ ] 3. Trading sideways 3-6 months
+    - Consolidation period: _____ months
+    - Price range: _____%  (Should be 10-15%)
+    - PASS/FAIL
+    
+[ ] 4. Breakout on 3X+ volume
+    - Breakout volume: _____  Average: _____  Ratio: _____x
+    - PASS/FAIL (If not yet broken out, mark as PENDING)
+    
+[ ] 5. Low debt
+    - Debt-Equity: _____  (Should be < 0.5)
+    - Interest coverage: _____x  (Should be > 5.0)
+    - PASS/FAIL
+    
+[ ] 6. Promoter holdings ≥ 50%
+    - Promoter holding: _____%  (Should be ≥ 50%)
+    - Trend: Increasing/Stable/Decreasing
+    - Pledged shares: _____%  (Should be < 10%)
+    - PASS/FAIL
+    
+[ ] 7. Emerging sector
+    - Sector growth projection: _____% annually (Should be ≥ 20%)
+    - Government policy support: Yes/No
+    - Structural tailwinds: Yes/No
+    - PASS/FAIL
+    
+[ ] 8. Management confidence & guidance
+    - Clear guidance provided: Yes/No
+    - Track record of meeting guidance: Yes/No
+    - Insider buying in last 6 months: Yes/No
+    - Communication quality: Good/Average/Poor
+    - PASS/FAIL
+
+
+SCORING:
+- Avoid Criteria: Must PASS ALL 5
+- Consider Criteria: Need 4+ of 8 to PASS
+- Overall: PASS / FAIL / PENDING
+
+
+================================================================================
+                    DETAILED EVALUATION TEMPLATE (DEEP ANALYSIS)
+================================================================================
+
+Use this template for comprehensive analysis of promising stocks.
+
+STOCK INFORMATION
+================================================================================
+Stock Name: _________________________________________________________
+Ticker Symbol: ___________________  Sector: ___________________________
+Current Price: ₹_____________  Market Cap: ₹_________________________
+52-Week High: ₹_____________  52-Week Low: ₹_________________________
+Date of Analysis: _______________  Analysis by: ______________________
+
+
+AVOID CRITERIA ANALYSIS
+================================================================================
+
+1. DOUBLED WITHOUT CATALYST CHECK
+--------------------------------------------------------------------------------
+3-Month Price Return: ___________%
+6-Month Price Return: ___________%
+Has stock doubled (100%+) in last 6 months?  YES / NO
+If YES, identify catalyst:
+  □ New contract/order
+  □ Earnings surprise
+  □ Sector tailwind
+  □ Regulatory change
+  □ Management change
+  □ Other: ___________________
+  □ NO CLEAR CATALYST IDENTIFIED → REJECT
+
+Decision: PASS / FAIL
+
+
+2. DECLINING PROFITS CHECK
+--------------------------------------------------------------------------------
+Quarterly Net Profit (Last 4 quarters):
+  Q4 (Current): ₹_____________ Cr
+  Q3: ₹_____________ Cr  (QoQ Growth: _____%)
+  Q2: ₹_____________ Cr  (QoQ Growth: _____%)
+  Q1: ₹_____________ Cr  (QoQ Growth: _____%)
+
+YoY Comparison (Current Q vs same Q last year):
+  Current Q: ₹_____________ Cr
+  Year-ago Q: ₹_____________ Cr
+  YoY Growth: _____%
+
+Profit Margin Trend:
+  Current Q Net Margin: _____%
+  Previous Q Net Margin: _____%
+  Year-ago Q Net Margin: _____%
+
+Trend: IMPROVING / STABLE / DECLINING
+Consecutive declining quarters: _____
+Decision: PASS / FAIL (If 2+ declining quarters → FAIL)
+
+
+3. HIGH DEBT CHECK
+--------------------------------------------------------------------------------
+Debt-Equity Ratio: ___________  (PASS if < 2.0, FAIL if ≥ 2.0)
+Total Debt: ₹_____________ Cr
+Total Equity: ₹_____________ Cr
+
+Interest Coverage Ratio: ___________x  (EBIT / Interest Expense)
+EBIT: ₹_____________ Cr
+Interest Expense: ₹_____________ Cr
+(PASS if > 2.0, FAIL if ≤ 2.0)
+
+Debt Trend (Last 3 years):
+  Current Year: ₹_____________ Cr
+  Year-1: ₹_____________ Cr
+  Year-2: ₹_____________ Cr
+Trend: INCREASING / STABLE / DECREASING
+
+Decision: PASS / FAIL
+
+
+4. POOR LIQUIDITY CHECK
+--------------------------------------------------------------------------------
+Current Ratio: ___________  (Current Assets / Current Liabilities)
+Current Assets: ₹_____________ Cr
+Current Liabilities: ₹_____________ Cr
+(PASS if > 1.0, FAIL if ≤ 1.0)
+
+Quick Ratio: ___________  ((Current Assets - Inventory) / Current Liabilities)
+Quick Assets: ₹_____________ Cr
+(PASS if > 0.5, FAIL if ≤ 0.5)
+
+Cash & Equivalents: ₹_____________ Cr
+Working Capital: ₹_____________ Cr
+
+Decision: PASS / FAIL
+
+
+5. SOCIAL MEDIA HYPE CHECK
+--------------------------------------------------------------------------------
+Social Media Presence:
+  Twitter/X: HIGH / MEDIUM / LOW
+  YouTube: HIGH / MEDIUM / LOW
+  Telegram/WhatsApp: HIGH / MEDIUM / LOW
+
+Recent Business Developments (Last 3 months):
+  □ New product launch
+  □ Major contract/order
+  □ Expansion announcement
+  □ Earnings beat
+  □ Management change
+  □ No significant business news
+
+Correlation between social media buzz and business improvement:
+  □ Strong correlation (buzz backed by fundamentals)
+  □ Weak correlation (buzz without fundamentals)
+  □ No buzz
+
+Decision: PASS / FAIL (If hype without fundamentals → FAIL)
+
+
+AVOID CRITERIA SUMMARY
+--------------------------------------------------------------------------------
+[ ] 1. Doubled without catalyst: PASS / FAIL
+[ ] 2. Declining profits: PASS / FAIL
+[ ] 3. High debt: PASS / FAIL
+[ ] 4. Poor liquidity: PASS / FAIL
+[ ] 5. Social media hype: PASS / FAIL
+
+OVERALL AVOID DECISION: PASS (All 5) / FAIL (Any fail)
+
+
+CONSIDER CRITERIA ANALYSIS
+================================================================================
+
+6. PROFIT GROWTH ≥ 40% CHECK
+--------------------------------------------------------------------------------
+YoY Profit Growth: _____%  (PASS if ≥ 40%, FAIL if < 40%)
+Current Q Profit: ₹_____________ Cr
+Year-ago Q Profit: ₹_____________ Cr
+
+QoQ Profit Growth: _____%  (Seasonally adjusted)
+Previous Q Profit: ₹_____________ Cr
+
+Profit Margin Expansion:
+  Current Net Margin: _____%
+  Year-ago Net Margin: _____%
+  Margin Expansion: _____ percentage points
+
+Consistency (Last 4 quarters):
+  □ All quarters showing growth
+  □ 3 of 4 quarters showing growth
+  □ 2 of 4 quarters showing growth
+  □ Inconsistent growth
+
+Decision: PASS / FAIL
+
+
+7. SALES GROWTH ≥ 30% CHECK
+--------------------------------------------------------------------------------
+YoY Revenue Growth: _____%  (PASS if ≥ 30%, FAIL if < 30%)
+Current Q Revenue: ₹_____________ Cr
+Year-ago Q Revenue: ₹_____________ Cr
+
+QoQ Revenue Growth: _____%  (Seasonally adjusted)
+Previous Q Revenue: ₹_____________ Cr
+
+Revenue Quality:
+  □ Recurring revenue dominant
+  □ One-time contracts significant
+  □ Mix of both
+
+Industry Comparison:
+  Company growth: _____%
+  Industry growth: _____%
+  Outperformance: _____ percentage points
+
+Decision: PASS / FAIL
+
+
+8. SIDEWAYS TRADING 3-6 MONTHS CHECK
+--------------------------------------------------------------------------------
+Consolidation Period: _____ months  (PASS if 3-6 months)
+
+Price Range Analysis:
+  Highest price (6 months): ₹_____________
+  Lowest price (6 months): ₹_____________
+  Average price: ₹_____________
+  Range percentage: _____%  (PASS if 10-15%, FAIL if > 20%)
+
+Current Price Position:
+  Current: ₹_____________
+  vs Range: Near top / Middle / Near bottom
+
+Volatility during consolidation:
+  □ Low volatility (tight range)
+  □ Moderate volatility
+  □ High volatility (wide swings)
+
+Volume during consolidation:
+  Average daily volume: ___________ shares
+  Volume trend: INCREASING / STABLE / DECREASING
+
+Decision: PASS / FAIL
+
+
+9. BREAKOUT ON 3X VOLUME CHECK
+--------------------------------------------------------------------------------
+Breakout Status:
+  □ Breakout confirmed
+  □ Breakout pending (still in consolidation)
+  □ No breakout yet
+
+If Breakout Confirmed:
+  Breakout Date: _______________
+  Breakout Price: ₹_____________
+  Previous Resistance: ₹_____________
+  Breakout Percentage: _____%
+
+Volume Analysis:
+  Breakout Day Volume: ___________ shares
+  20-Day Average Volume: ___________ shares
+  Volume Ratio: _____x  (PASS if ≥ 3x, FAIL if < 3x)
+
+  50-Day Average Volume: ___________ shares
+  Volume Ratio (50-day): _____x
+
+Price Action Post-Breakout:
+  Current Price: ₹_____________
+  Gain since breakout: _____%
+  Holding above breakout: YES / NO
+
+If No Breakout Yet:
+  Current price vs resistance: ₹_____________ (distance: _____%)
+  Watch for: Volume surge + price above resistance
+
+Decision: PASS / FAIL / PENDING
+
+
+10. LOW DEBT CHECK
+--------------------------------------------------------------------------------
+Debt-Equity Ratio: ___________  (PASS if < 0.5, FAIL if ≥ 0.5)
+Current Debt: ₹_____________ Cr
+Current Equity: ₹_____________ Cr
+
+Interest Coverage Ratio: ___________x  (PASS if > 5.0, FAIL if ≤ 5.0)
+EBIT: ₹_____________ Cr
+Interest Expense: ₹_____________ Cr
+
+Net Debt Position:
+  Total Debt: ₹_____________ Cr
+  Cash & Equivalents: ₹_____________ Cr
+  Net Debt: ₹_____________ Cr
+  □ Net-debt free (Cash > Debt)
+  □ Low net debt
+  □ High net debt
+
+Debt Trend:
+  □ Debt decreasing over last 3 years
+  □ Debt stable
+  □ Debt increasing
+
+Decision: PASS / FAIL
+
+
+11. PROMOTER HOLDINGS CHECK
+--------------------------------------------------------------------------------
+Promoter Holding Percentage: _____%  (PASS if ≥ 50%, FAIL if < 50%)
+
+Promoter Holding Trend (Last 2 years):
+  Current: _____%
+  6 months ago: _____%
+  1 year ago: _____%
+  2 years ago: _____%
+  Trend: INCREASING / STABLE / DECREASING
+
+Pledged Shares:
+  Total pledged shares: _____% of promoter holding
+  □ No pledged shares (PASS)
+  □ Minimal pledged (< 10%) (PASS)
+  □ Significant pledged (10-25%) (CAUTION)
+  □ High pledged (> 25%) (FAIL)
+
+Recent Promoter Activity:
+  □ Promoter buying in last 6 months
+  □ Promoter selling in last 6 months
+  □ No change
+
+Decision: PASS / FAIL
+
+
+12. EMERGING SECTOR CHECK
+--------------------------------------------------------------------------------
+Sector Classification: _________________________________
+
+Sector Growth Projection:
+  Expected annual growth (next 3-5 years): _____%
+  Source of projection: ___________________
+  (PASS if ≥ 20%, FAIL if < 20%)
+
+Government Policy Support:
+  □ PLI Scheme applicable
+  □ Tax incentives/benefits
+  □ Regulatory support
+  □ Government contracts/orders
+  □ No specific policy support
+  Overall: YES / NO
+
+Structural Tailwinds:
+  □ Digitalization trend
+  □ Green energy transition
+  □ Manufacturing push (Make in India)
+  □ Urbanization/infrastructure growth
+  □ Technology adoption
+  □ Other: ___________________
+  Overall: YES / NO
+
+Industry vs GDP Growth:
+  Sector growth: _____%
+  GDP growth: _____%
+  Outperformance: _____ percentage points
+
+Competitive Position:
+  □ Market leader in niche
+  □ Strong competitive advantage
+  □ Early mover advantage
+  □ Me-too player
+
+Emerging Sector List (Check if applicable):
+  □ Renewable Energy (Solar, Wind, Green Hydrogen)
+  □ Electric Vehicles (EV components, batteries, charging)
+  □ Electronics Manufacturing (EMS, semiconductors, PCB)
+  □ Specialty Chemicals (agrochemicals, pharma intermediates)
+  □ Defense & Aerospace
+  □ Data Centers & Cloud Infrastructure
+  □ AI & Machine Learning applications
+  □ Fintech & Digital Payments
+  □ Healthcare & Biotechnology
+  □ Advanced Materials
+  □ Other: ___________________
+
+Decision: PASS / FAIL
+
+
+13. MANAGEMENT CONFIDENCE & GUIDANCE CHECK
+--------------------------------------------------------------------------------
+Management Quality Assessment:
+  CEO/MD Experience: _____ years in current role
+  Management Tenure: _____ years (average)
+  □ Stable management team
+  □ Frequent management changes
+
+Guidance & Communication:
+  □ Provides quarterly/annual guidance
+  □ Guidance is realistic and achievable
+  □ Has met previous guidance consistently
+  □ Transparent in communication
+  □ Regular investor conferences/calls
+
+Track Record:
+  Guidance accuracy (last 2 years): _____%
+  □ Consistently exceeded guidance
+  □ Met guidance most times
+  □ Missed guidance frequently
+  □ No guidance provided
+
+Insider Activity:
+  Insider buying in last 6 months: Yes/No
+  Insider selling in last 6 months: Yes/No
+  Net insider activity: BUYING / SELLING / NEUTRAL
+
+Red Flags:
+  □ Frequent management changes
+  □ Poor communication
+  □ Missed guidance repeatedly
+  □ Legal/regulatory issues against management
+  □ Promoter pledging increasing
+
+Decision: PASS / FAIL
+
+
+CONSIDER CRITERIA SUMMARY
+--------------------------------------------------------------------------------
+[ ] 6. Profit growth ≥ 40%: PASS / FAIL
+[ ] 7. Sales growth ≥ 30%: PASS / FAIL
+[ ] 8. Sideways trading 3-6 months: PASS / FAIL
+[ ] 9. Breakout on 3X volume: PASS / FAIL / PENDING
+[ ] 10. Low debt: PASS / FAIL
+[ ] 11. Promoter holdings ≥ 50%: PASS / FAIL
+[ ] 12. Emerging sector: PASS / FAIL
+[ ] 13. Management confidence & guidance: PASS / FAIL
+
+TOTAL PASS: _____ / 8  (Need 4+ to PASS)
+OVERALL CONSIDER DECISION: PASS / FAIL / PENDING
+
+
+FINAL SCREENING DECISION
+================================================================================
+
+AVOID CRITERIA: PASS / FAIL  (must PASS ALL 5)
+CONSIDER CRITERIA: PASS / FAIL / PENDING  (need 4+ of 8)
+
+FINAL DECISION: APPROVE / REJECT / WATCHLIST
+
+If REJECTED, reason(s):
+_______________________________________________________________
+_______________________________________________________________
+
+If WATCHLIST, trigger for action:
+_______________________________________________________________
+_______________________________________________________________
+
+If APPROVED, recommended position size: _____% of portfolio
+Entry price range: ₹_____________ to ₹_____________
+Stop-loss: ₹_____________ (_____% below entry)
+Target price: ₹_____________ (_____% upside)
+
+
+ADDITIONAL NOTES
+================================================================================
+
+Sector Outlook: POSITIVE / NEUTRAL / NEGATIVE
+Reason: __________________________________________________________
+
+Market Conditions: BULL / BEAR / SIDEWAYS
+Impact on decision: ______________________________________________
+
+Key Risks:
+_______________________________________________________________
+_______________________________________________________________
+
+Key Catalysts:
+_______________________________________________________________
+_______________________________________________________________
+
+Analyst Recommendations:
+Buy: _____  Hold: _____  Sell: _____
+Consensus: BUY / HOLD / SELL
+
+Overall Score (1-10): _____
+
+
+================================================================================
+                        SEARCH STRATEGY
+================================================================================
+
+STOCK SCREENING TOOLS:
+
+1. SCREENER.IN (Best for Indian stocks)
+   URL: https://screener.in
+   Filters:
+   - Market cap: Small-cap (<₹5,000 Cr) or Micro-cap (<₹1,000 Cr)
+   - Sales growth: > 30% (CAGR 3 years)
+   - Profit growth: > 40% (CAGR 3 years)
+   - Debt to Equity: < 0.5
+   - Interest Coverage: > 5
+   - Promoter holding: > 50%
+
+2. MONEYCONTROL STOCK SCREENER
+   URL: https://www.moneycontrol.com/stocks/marketstats/ind-screener.php
+   Filters:
+   - Market Cap: Small-cap
+   - Net Profit Growth (YoY): > 40%
+   - Sales Growth (YoY): > 30%
+   - Debt-Equity Ratio: < 0.5
+   - P/E Ratio: < 30
+   - Current Ratio: > 1.5
+   - ROE: > 15%
+
+3. CHARTINK SCREENER
+   URL: https://chartink.com/screener
+   Use scan formula for:
+   - Net profit growth > 40%
+   - Sales growth > 30%
+   - Debt-Equity < 0.5
+   - Promoter holding > 50%
+   - Market cap < ₹5,000 Cr
+
+4. TRENDLYNE
+   URL: https://trendlyne.com
+   Use Screener with:
+   - Sales growth (3-year CAGR): > 30%
+   - Profit growth (3-year CAGR): > 40%
+   - Debt-Equity: < 0.5
+   - Promoter holding: > 50%
+   - Market cap: Small-cap
+
+WEEKLY PROCESS:
+1. Run screeners on all platforms
+2. Export results to Excel
+3. Remove duplicates
+4. Apply quick screening checklist
+5. Score each stock (target 4+/7)
+6. Create watchlist
+7. Monitor for entry points
+
+
+================================================================================
+                        EMERGING SECTORS LIST
+================================================================================
+
+These are the high-growth sectors to prioritize in your screening:
+
+1. RENEWABLE ENERGY
+   - Solar, Wind, Green Hydrogen
+   - Government Support: PLI Scheme for Solar, Green Hydrogen Mission
+   - Expected Growth: 25-35% annually
+
+2. ELECTRIC VEHICLES (EV)
+   - EV components, batteries, charging infrastructure
+   - Government Support: FAME II Scheme, PLI for EV & Batteries
+   - Expected Growth: 30-40% annually
+
+3. ELECTRONICS MANUFACTURING (EMS)
+   - EMS, semiconductors, PCB, IoT
+   - Government Support: PLI Scheme for Electronics Manufacturing
+   - Expected Growth: 25-30% annually
+
+4. SPECIALTY CHEMICALS
+   - Agrochemicals, pharma intermediates, fluorochemicals
+   - Government Support: PLI for Chemicals, Pharma parks
+   - Expected Growth: 20-25% annually
+
+5. DEFENSE & AEROSPACE
+   - Defense manufacturing, aerospace technology
+   - Government Support: Defense procurement, Make in India
+   - Expected Growth: 15-20% annually
+
+6. DATA CENTERS & CLOUD INFRASTRUCTURE
+   - Data centers, cloud services, edge computing
+   - Government Support: Digital India initiative
+   - Expected Growth: 20-25% annually
+
+7. ARTIFICIAL INTELLIGENCE & MACHINE LEARNING
+   - AI applications, ML solutions, automation
+   - Government Support: Digital India, AI research initiatives
+   - Expected Growth: 25-35% annually
+
+8. FINTECH & DIGITAL PAYMENTS
+   - Digital payments, lending tech, wealth tech
+   - Government Support: Digital India, UPI ecosystem
+   - Expected Growth: 25-30% annually
+
+9. HEALTHCARE & BIOTECHNOLOGY
+   - Biotech, medical devices, healthcare services
+   - Government Support: Healthcare infrastructure spending
+   - Expected Growth: 15-20% annually
+
+10. ADVANCED MATERIALS
+    - Composites, polymers, specialty materials
+    - Government Support: Manufacturing push, research grants
+    - Expected Growth: 15-20% annually
+
+
+================================================================================
+                        DATA SOURCES
+================================================================================
+
+FINANCIAL DATA:
+- Moneycontrol (moneycontrol.com)
+- Trendlyne (trendlyne.com)
+- Screener (screener.in)
+- Company quarterly results (BSE/NSE filings)
+
+TECHNICAL DATA:
+- TradingView (tradingview.com)
+- Chartink (chartink.com)
+- Investing.com (investing.com)
+
+VOLUME & PRICE:
+- NSE/BSE websites
+- Broker terminals (Zerodha, Groww, etc.)
+- Yahoo Finance
+
+SHAREHOLDING:
+- BSE/NSE shareholding pattern filings
+- Company investor presentations
+- Corporate announcements
+
+SECTOR DATA:
+- NITI Aayog reports
+- Ministry reports (respective ministries)
+- Industry association reports
+- Research firm reports (CRISIL, ICRA, CARE)
+
+
+================================================================================
+                                NOTES
+================================================================================
+
+- This framework is for screening purposes only
+- Always do deeper due diligence before investing
+- Consider sector outlook and market conditions
+- Use stop-losses and position sizing
+- Past performance doesn't guarantee future results
+- Consult a financial advisor for investment decisions
+
+REALISTIC EXPECTATIONS:
+- Finding 7/7 perfect stocks is RARE
+- Most stocks will score 4-6/7
+- Aim for 5-6/7 as "good enough"
+- 7/7 stocks may not exist in current market
+
+TYPICAL SCREENING RESULTS:
+- 100-200 stocks from initial screener
+- 30-50 stocks after basic filters
+- 10-20 stocks after manual verification
+- 2-5 stocks scoring 6/7
+- 0-2 stocks scoring 7/7
+
+================================================================================

@@ -1,0 +1,387 @@
+================================================================================
+                    STOCK CANDIDATES FROM WEB SEARCH
+              Filtered Against MASTER Framework Criteria
+                          JULY 2026
+================================================================================
+
+DISCLAIMER: These stocks are identified from online research reports and news
+articles. They require detailed verification using your MASTER framework before
+any investment consideration. This is NOT a recommendation to buy/sell.
+
+================================================================================
+                        CANDIDATES WITH HIGH POTENTIAL
+================================================================================
+
+STOCK 1: NATCO PHARMA (Large-cap)
+--------------------------------------------------------------------------------
+Source: MoneyMuscle Analysis
+Sector: Pharmaceuticals (Emerging - Specialty Pharma)
+
+Financial Metrics:
+- PAT Growth: 94% in FY24
+- Revenue Growth: 47% in FY24
+- P/E Ratio: 13 (Attractive valuation)
+- FY20-24 PAT CAGR: 32%
+- FY20-24 Revenue CAGR: 20%
+
+Management Guidance:
+- FY25 PAT growth: 20%
+- FY25 Revenue growth: 15-20%
+- Potential for inorganic growth in FY26
+
+Preliminary Screening:
+AVOID CRITERIA:
+[ ] Not doubled without catalyst: PASS (94% PAT growth backed by fundamentals)
+[ ] Profits NOT declining: PASS (94% growth)
+[ ] Debt NOT very high: NEED DATA
+[ ] Liquidity NOT poor: NEED DATA
+[ ] NOT social media hype: PASS (Fundamental analysis report)
+
+CONSIDER CRITERIA:
+[ ] Profit growth ≥ 40%: PASS (94%)
+[ ] Sales growth ≥ 30%: PASS (47%)
+[ ] Sideways 3-6 months: NEED DATA
+[ ] Breakout on 3X volume: NEED DATA
+[ ] Low debt: NEED DATA
+[ ] Promoter holdings ≥ 50%: NEED DATA
+[ ] Emerging sector: PASS (Pharma - emerging specialty segment)
+[ ] Management confidence: PASS (Clear guidance provided)
+
+PRELIMINARY SCORE: 5/8 (3 missing data points)
+STATUS: PROMISING - Needs detailed verification
+
+
+STOCK 2: KNOWLEDGE MARINE & ENGINEERING WORKS (Small-cap)
+--------------------------------------------------------------------------------
+Source: Yahoo Finance / SimplyWall.st
+Sector: Marine Engineering (Traditional)
+
+Financial Metrics:
+- Debt to Equity: 35.48% (FAIL - too high)
+- Revenue Growth: 42.61% (PASS)
+- Earnings Growth: 42.95% (PASS)
+- Health Rating: 6/6 stars
+
+Preliminary Screening:
+AVOID CRITERIA:
+[ ] Not doubled without catalyst: NEED DATA
+[ ] Profits NOT declining: PASS (42.95% growth)
+[ ] Debt NOT very high: FAIL (D/E 35.48% > 2.0)
+[ ] Liquidity NOT poor: NEED DATA
+[ ] NOT social media hype: NEED DATA
+
+CONSIDER CRITERIA:
+[ ] Profit growth ≥ 40%: PASS (42.95%)
+[ ] Sales growth ≥ 30%: PASS (42.61%)
+[ ] Sideways 3-6 months: NEED DATA
+[ ] Breakout on 3X volume: NEED DATA
+[ ] Low debt: FAIL (D/E 35.48% > 0.5)
+[ ] Promoter holdings ≥ 50%: NEED DATA
+[ ] Emerging sector: FAIL (Marine engineering - traditional)
+[ ] Management confidence: NEED DATA
+
+PRELIMINARY SCORE: 2/8
+STATUS: REJECT (High debt, traditional sector)
+
+
+STOCK 3: MACPOWER CNC MACHINES (Small-cap)
+--------------------------------------------------------------------------------
+Source: Yahoo Finance / SimplyWall.st
+Sector: Industrial Machinery (Emerging - Manufacturing)
+
+Financial Metrics:
+- Debt to Equity: 0.40% (PASS - very low)
+- Revenue Growth: 22.04% (FAIL - below 30%)
+- Earnings Growth: 31.09% (FAIL - below 40%)
+- Health Rating: 5/6 stars
+
+Preliminary Screening:
+AVOID CRITERIA:
+[ ] Not doubled without catalyst: NEED DATA
+[ ] Profits NOT declining: PASS (31.09% growth)
+[ ] Debt NOT very high: PASS (D/E 0.40%)
+[ ] Liquidity NOT poor: NEED DATA
+[ ] NOT social media hype: NEED DATA
+
+CONSIDER CRITERIA:
+[ ] Profit growth ≥ 40%: FAIL (31.09%)
+[ ] Sales growth ≥ 30%: FAIL (22.04%)
+[ ] Sideways 3-6 months: NEED DATA
+[ ] Breakout on 3X volume: NEED DATA
+[ ] Low debt: PASS (D/E 0.40%)
+[ ] Promoter holdings ≥ 50%: NEED DATA
+[ ] Emerging sector: PASS (Manufacturing - Make in India)
+[ ] Management confidence: NEED DATA
+
+PRELIMINARY SCORE: 2/8
+STATUS: WATCHLIST (Good debt profile, but growth below threshold)
+
+
+STOCK 4: BHARAT ELECTRONICS LTD (Large-cap)
+--------------------------------------------------------------------------------
+Source: AngelOne Fundamentally Strong Stocks
+Sector: Defense Electronics (Emerging - Defense)
+
+Financial Metrics:
+- Market Cap: ₹2,28,686 Cr (Large-cap)
+- P/E Ratio: 57.39
+- 1-Year Return: 95.1%
+- Net Profit Margin: 19.03%
+- ROE: 26.37%
+- Debt to Equity: 0 (PASS - debt-free)
+
+Preliminary Screening:
+AVOID CRITERIA:
+[ ] Not doubled without catalyst: CAUTION (95% return in 1 year)
+[ ] Profits NOT declining: PASS (Strong margins)
+[ ] Debt NOT very high: PASS (D/E 0)
+[ ] Liquidity NOT poor: PASS (Large-cap, strong cash flows)
+[ ] NOT social media hype: NEED DATA
+
+CONSIDER CRITERIA:
+[ ] Profit growth ≥ 40%: NEED DATA
+[ ] Sales growth ≥ 30%: NEED DATA
+[ ] Sideways 3-6 months: FAIL (95% return, not sideways)
+[ ] Breakout on 3X volume: NEED DATA
+[ ] Low debt: PASS (D/E 0)
+[ ] Promoter holdings ≥ 50%: NEED DATA (Govt company)
+[ ] Emerging sector: PASS (Defense - emerging with govt support)
+[ ] Management confidence: PASS (Govt-backed, stable)
+
+PRELIMINARY SCORE: 3/8 (with missing data)
+STATUS: WATCHLIST (Already up 95%, but strong fundamentals)
+
+
+STOCK 5: IPCA LABORATORIES (Large-cap)
+--------------------------------------------------------------------------------
+Source: Motilal Oswal Research
+Sector: Pharmaceuticals (Emerging - Specialty Pharma)
+
+Financial Metrics:
+- Expected Earnings CAGR: 27% (FY25-27)
+- Expected Margin Improvement: 170 bps
+- Return Ratio Expected: ~16%
+- Target Price: ₹1,980
+- Rating: BUY
+
+Preliminary Screening:
+AVOID CRITERIA:
+[ ] Not doubled without catalyst: NEED DATA
+[ ] Profits NOT declining: PASS (27% CAGR expected)
+[ ] Debt NOT very high: NEED DATA
+[ ] Liquidity NOT poor: NEED DATA
+[ ] NOT social media hype: PASS (Broker research)
+
+CONSIDER CRITERIA:
+[ ] Profit growth ≥ 40%: FAIL (27% CAGR < 40%)
+[ ] Sales growth ≥ 30%: NEED DATA
+[ ] Sideways 3-6 months: NEED DATA
+[ ] Breakout on 3X volume: NEED DATA
+[ ] Low debt: NEED DATA
+[ ] Promoter holdings ≥ 50%: NEED DATA
+[ ] Emerging sector: PASS (Pharma - emerging specialty segment)
+[ ] Management confidence: PASS (Clear guidance from management)
+
+PRELIMINARY SCORE: 2/8 (with missing data)
+STATUS: WATCHLIST (Strong growth but below 40% threshold)
+
+
+STOCK 6: LE TRAVENUES TECHNOLOGY (Small-cap)
+--------------------------------------------------------------------------------
+Source: Yahoo Finance / SimplyWall.st
+Sector: Technology (Emerging - IT Services)
+
+Financial Metrics:
+- Debt to Equity: 10.32% (PASS)
+- Revenue Growth: 26.39% (FAIL - below 30%)
+- Earnings Growth: 67.32% (PASS)
+- Health Rating: 6/6 stars
+
+Preliminary Screening:
+AVOID CRITERIA:
+[ ] Not doubled without catalyst: NEED DATA
+[ ] Profits NOT declining: PASS (67.32% growth)
+[ ] Debt NOT very high: PASS (D/E 10.32%)
+[ ] Liquidity NOT poor: NEED DATA
+[ ] NOT social media hype: NEED DATA
+
+CONSIDER CRITERIA:
+[ ] Profit growth ≥ 40%: PASS (67.32%)
+[ ] Sales growth ≥ 30%: FAIL (26.39%)
+[ ] Sideways 3-6 months: NEED DATA
+[ ] Breakout on 3X volume: NEED DATA
+[ ] Low debt: PASS (D/E 10.32%)
+[ ] Promoter holdings ≥ 50%: NEED DATA
+[ ] Emerging sector: PASS (Technology)
+[ ] Management confidence: NEED DATA
+
+PRELIMINARY SCORE: 4/8 (with missing data)
+STATUS: PROMISING - Needs detailed verification
+
+
+STOCK 7: VOITH PAPER FABRICS INDIA (Small-cap)
+--------------------------------------------------------------------------------
+Source: Yahoo Finance / SimplyWall.st
+Sector: Textiles/Paper (Traditional)
+
+Financial Metrics:
+- Debt to Equity: 0.07% (PASS - very low)
+- Revenue Growth: 10.95% (FAIL - below 30%)
+- Earnings Growth: 9.70% (FAIL - below 40%)
+- Health Rating: 5/6 stars
+
+Preliminary Screening:
+AVOID CRITERIA:
+[ ] Not doubled without catalyst: NEED DATA
+[ ] Profits NOT declining: PASS (9.70% growth)
+[ ] Debt NOT very high: PASS (D/E 0.07%)
+[ ] Liquidity NOT poor: NEED DATA
+[ ] NOT social media hype: NEED DATA
+
+CONSIDER CRITERIA:
+[ ] Profit growth ≥ 40%: FAIL (9.70%)
+[ ] Sales growth ≥ 30%: FAIL (10.95%)
+[ ] Sideways 3-6 months: NEED DATA
+[ ] Breakout on 3X volume: NEED DATA
+[ ] Low debt: PASS (D/E 0.07%)
+[ ] Promoter holdings ≥ 50%: NEED DATA
+[ ] Emerging sector: FAIL (Textiles - traditional)
+[ ] Management confidence: NEED DATA
+
+PRELIMINARY SCORE: 1/8
+STATUS: REJECT (Low growth, traditional sector)
+
+
+STOCK 8: SHARE INDIA SECURITIES (Small-cap)
+--------------------------------------------------------------------------------
+Source: Yahoo Finance / SimplyWall.st
+Sector: Financial Services (Traditional)
+
+Financial Metrics:
+- Debt to Equity: 24.23% (PASS)
+- Revenue Growth: 37.59% (PASS)
+- Earnings Growth: 48.98% (PASS)
+- Health Rating: 4/6 stars
+
+Preliminary Screening:
+AVOID CRITERIA:
+[ ] Not doubled without catalyst: NEED DATA
+[ ] Profits NOT declining: PASS (48.98% growth)
+[ ] Debt NOT very high: PASS (D/E 24.23%)
+[ ] Liquidity NOT poor: NEED DATA
+[ ] NOT social media hype: NEED DATA
+
+CONSIDER CRITERIA:
+[ ] Profit growth ≥ 40%: PASS (48.98%)
+[ ] Sales growth ≥ 30%: PASS (37.59%)
+[ ] Sideways 3-6 months: NEED DATA
+[ ] Breakout on 3X volume: NEED DATA
+[ ] Low debt: PASS (D/E 24.23%)
+[ ] Promoter holdings ≥ 50%: NEED DATA
+[ ] Emerging sector: FAIL (Financial services - traditional)
+[ ] Management confidence: NEED DATA
+
+PRELIMINARY SCORE: 5/8 (with missing data)
+STATUS: PROMISING - Needs detailed verification
+
+
+================================================================================
+                        SUMMARY OF FINDINGS
+================================================================================
+
+TOP 3 PROMISING CANDIDATES (Require Detailed Verification):
+
+1. NATCO PHARMA (Large-cap)
+   - Score: 5/8 (3 missing data points)
+   - Strengths: 94% PAT growth, 47% revenue growth, attractive PE 13
+   - Weaknesses: Missing debt, liquidity, promoter data
+   - Sector: Pharma (emerging)
+   - Action: Verify missing data, check technicals
+
+2. LE TRAVENUES TECHNOLOGY (Small-cap)
+   - Score: 4/8 (4 missing data points)
+   - Strengths: 67% earnings growth, low debt
+   - Weaknesses: Sales growth 26% (below 30%), missing technical data
+   - Sector: Technology (emerging)
+   - Action: Verify sales growth sustainability, check technicals
+
+3. SHARE INDIA SECURITIES (Small-cap)
+   - Score: 5/8 (4 missing data points)
+   - Strengths: 49% earnings growth, 38% sales growth, reasonable debt
+   - Weaknesses: Traditional sector, missing technical data
+   - Sector: Financial services (traditional)
+   - Action: Verify if sector can be considered emerging (fintech angle)
+
+WATCHLIST (Monitor):
+
+4. BHARAT ELECTRONICS (Large-cap)
+   - Already up 95% in 1 year (avoid criteria concern)
+   - Strong fundamentals, debt-free
+   - Defense sector (emerging)
+   - Action: Wait for consolidation
+
+5. MACPOWER CNC MACHINES (Small-cap)
+   - Very low debt (0.40%)
+   - Growth below threshold (31% earnings, 22% sales)
+   - Manufacturing sector (emerging)
+   - Action: Monitor for growth acceleration
+
+REJECTED:
+
+6. KNOWLEDGE MARINE - High debt (35.48% D/E)
+7. VOITH PAPER FABRICS - Low growth, traditional sector
+8. IPCA LABORATORIES - Growth below 40% threshold
+
+
+================================================================================
+                        NEXT STEPS
+================================================================================
+
+For each PROMISING candidate, use your MASTER framework to:
+
+1. NATCO PHARMA:
+   - Check debt levels and interest coverage
+   - Verify current ratio and quick ratio
+   - Check promoter holdings and pledged shares
+   - Analyze 6-month price chart for consolidation
+   - Check for volume breakout
+   - Read recent investor presentations
+
+2. LE TRAVENUES TECHNOLOGY:
+   - Verify if 26% sales growth is sustainable
+   - Check debt details
+   - Verify promoter holdings
+   - Analyze technical chart
+   - Check if in emerging tech sector
+
+3. SHARE INDIA SECURITIES:
+   - Verify if fintech/digital payments angle (emerging sector)
+   - Check debt details
+   - Verify promoter holdings
+   - Analyze technical chart
+   - Check management guidance
+
+DATA SOURCES FOR VERIFICATION:
+- Screener.in (after login)
+- Moneycontrol
+- Company investor presentations
+- BSE/NSE filings
+- TradingView for technical analysis
+
+
+================================================================================
+                                NOTES
+================================================================================
+
+- This analysis is based on web search results and requires verification
+- Many data points are missing and need to be filled
+- Technical analysis (sideways trading, breakout) not available from web search
+- Promoter holdings data not available from sources
+- Management confidence assessment requires reading investor presentations
+- These are preliminary findings only - NOT investment recommendations
+
+RECOMMENDATION:
+Use the MASTER framework's detailed evaluation template to thoroughly
+analyze the top 3 promising candidates before any investment decision.
+
+================================================================================

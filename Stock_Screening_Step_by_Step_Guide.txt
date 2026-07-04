@@ -1,0 +1,422 @@
+================================================================================
+                    STOCK SCREENING STEP-BY-STEP GUIDE
+              Using Screener.in, Moneycontrol, and Chartink
+                          JULY 2026
+================================================================================
+
+This guide provides exact steps to find stocks using your screening criteria
+on the three major Indian stock screening platforms.
+
+TARGET: Find stocks that pass ALL 5 avoid criteria and 8/8 consider criteria
+- Large-cap: Market cap > ₹20,000 Cr
+- Mid-cap: Market cap ₹5,000 - ₹20,000 Cr  
+- Small-cap: Market cap < ₹5,000 Cr
+
+
+================================================================================
+                        PLATFORM 1: SCREENER.IN
+================================================================================
+
+URL: https://screener.in
+
+STEP 1: Go to Screener
+--------------------------------------------------------------------------------
+1. Open browser and go to: https://screener.in
+2. Click on "Screener" in the top navigation
+3. You'll see the screener interface with filters
+
+STEP 2: Set Market Cap Filter (Do this 3 times for each category)
+--------------------------------------------------------------------------------
+
+FOR LARGE-CAP:
+- Filter: Market Cap
+- Operator: Greater than
+- Value: 20000
+- Click "Add Filter"
+
+FOR MID-CAP:
+- Filter: Market Cap
+- Operator: Between
+- Value: 5000 and 20000
+- Click "Add Filter"
+
+FOR SMALL-CAP:
+- Filter: Market Cap
+- Operator: Less than
+- Value: 5000
+- Click "Add Filter"
+
+STEP 3: Add Financial Filters (Apply to all categories)
+--------------------------------------------------------------------------------
+
+Filter 1: Sales Growth
+- Filter: Sales growth (CAGR)
+- Period: 3 years
+- Operator: Greater than
+- Value: 30
+- Click "Add Filter"
+
+Filter 2: Profit Growth
+- Filter: Profit growth (CAGR)
+- Period: 3 years
+- Operator: Greater than
+- Value: 40
+- Click "Add Filter"
+
+Filter 3: Debt to Equity
+- Filter: Debt to equity
+- Operator: Less than
+- Value: 0.5
+- Click "Add Filter"
+
+Filter 4: Interest Coverage
+- Filter: Interest coverage
+- Operator: Greater than
+- Value: 5
+- Click "Add Filter"
+
+Filter 5: Current Ratio
+- Filter: Current ratio
+- Operator: Greater than
+- Value: 1.5
+- Click "Add Filter"
+
+Filter 6: ROE
+- Filter: ROE
+- Operator: Greater than
+- Value: 15
+- Click "Add Filter"
+
+STEP 4: Add Ownership Filter
+--------------------------------------------------------------------------------
+
+Filter 7: Promoter Holding
+- Filter: Promoter holding
+- Operator: Greater than
+- Value: 50
+- Click "Add Filter"
+
+STEP 5: Run the Screener
+--------------------------------------------------------------------------------
+- Click "Export to Excel" button (top right)
+- Save the file as: "Screener_LargeCap_[Date].xlsx"
+- Repeat for Mid-cap and Small-cap
+
+STEP 6: Manual Verification (For each stock from results)
+--------------------------------------------------------------------------------
+For each stock in the Excel file, manually check:
+
+1. AVOID CRITERIA (Must PASS all 5):
+   [ ] Not doubled in 3-6 months without catalyst
+   [ ] Profits NOT declining (check last 4 quarters)
+   [ ] Debt NOT very high (already filtered)
+   [ ] Liquidity NOT poor (already filtered)
+   [ ] NOT social media hype without fundamentals
+
+2. CONSIDER CRITERIA (Need 8/8):
+   [ ] Profit growth ≥ 40% (already filtered)
+   [ ] Sales growth ≥ 30% (already filtered)
+   [ ] Trading sideways 3-6 months (check chart)
+   [ ] Breakout on 3X volume (check chart)
+   [ ] Low debt (already filtered)
+   [ ] Promoter holdings ≥ 50% (already filtered)
+   [ ] Emerging sector (check sector classification)
+   [ ] Management confidence (check investor presentations)
+
+
+================================================================================
+                        PLATFORM 2: MONEYCONTROL
+================================================================================
+
+URL: https://www.moneycontrol.com/stocks/marketstats/ind-screener.php
+
+STEP 1: Go to Moneycontrol Screener
+--------------------------------------------------------------------------------
+1. Open browser and go to: https://www.moneycontrol.com/stocks/marketstats/ind-screener.php
+2. You'll see the stock screener page
+
+STEP 2: Set Market Cap Filter
+--------------------------------------------------------------------------------
+
+FOR LARGE-CAP:
+- Market Cap: Large Cap (already preset)
+- Or select Custom: > ₹20,000 Cr
+
+FOR MID-CAP:
+- Market Cap: Mid Cap (already preset)
+- Or select Custom: ₹5,000 - ₹20,000 Cr
+
+FOR SMALL-CAP:
+- Market Cap: Small Cap (already preset)
+- Or select Custom: < ₹5,000 Cr
+
+STEP 3: Add Financial Filters
+--------------------------------------------------------------------------------
+
+Filter 1: Net Profit Growth
+- Select: Net Profit Growth (YoY %)
+- Operator: Greater than
+- Value: 40
+- Click "Add"
+
+Filter 2: Sales Growth
+- Select: Sales Growth (YoY %)
+- Operator: Greater than
+- Value: 30
+- Click "Add"
+
+Filter 3: Debt-Equity Ratio
+- Select: Debt-Equity Ratio
+- Operator: Less than
+- Value: 0.5
+- Click "Add"
+
+Filter 4: P/E Ratio
+- Select: P/E Ratio (TTM)
+- Operator: Less than
+- Value: 30
+- Click "Add"
+
+Filter 5: Current Ratio
+- Select: Current Ratio
+- Operator: Greater than
+- Value: 1.5
+- Click "Add"
+
+Filter 6: ROE
+- Select: ROE (%)
+- Operator: Greater than
+- Value: 15
+- Click "Add"
+
+STEP 4: Run the Screener
+--------------------------------------------------------------------------------
+- Click "Search" or "Apply Filters" button
+- Results will appear below
+- Click "Export to Excel" if available
+- Or manually copy results to Excel
+
+STEP 5: Manual Verification
+--------------------------------------------------------------------------------
+Same as Screener.in - manually check avoid and consider criteria
+Use your MASTER framework for detailed evaluation
+
+
+================================================================================
+                        PLATFORM 3: CHARTINK
+================================================================================
+
+URL: https://chartink.com/screener
+
+STEP 1: Go to Chartink Screener
+--------------------------------------------------------------------------------
+1. Open browser and go to: https://chartink.com/screener
+2. Click on "Create New Scan" or use existing scans
+
+STEP 2: Use Pre-built Scan Formula
+--------------------------------------------------------------------------------
+
+Copy and paste this scan formula:
+
+```
+{
+  "exchange": "NSE",
+  "segment": "EQ",
+  "filter": [
+    {
+      "left": "NET PROFIT",
+      "operation": "GREATER_THAN",
+      "right": "40",
+      "period": "365"
+    },
+    {
+      "left": "SALES",
+      "operation": "GREATER_THAN",
+      "right": "30",
+      "period": "365"
+    },
+    {
+      "left": "NET DEBT",
+      "operation": "LESS_THAN",
+      "right": "0.5",
+      "period": "0"
+    },
+    {
+      "left": "PROMOTER HOLDING",
+      "operation": "GREATER_THAN",
+      "right": "50",
+      "period": "0"
+    },
+    {
+      "left": "MARKET CAP",
+      "operation": "LESS_THAN",
+      "right": "5000",
+      "period": "0"
+    },
+    {
+      "left": "CURRENT RATIO",
+      "operation": "GREATER_THAN",
+      "right": "1.5",
+      "period": "0"
+    }
+  ]
+}
+```
+
+STEP 3: Modify for Different Market Caps
+--------------------------------------------------------------------------------
+
+FOR LARGE-CAP:
+Change market cap filter to:
+```
+{
+  "left": "MARKET CAP",
+  "operation": "GREATER_THAN",
+  "right": "20000",
+  "period": "0"
+}
+```
+
+FOR MID-CAP:
+Change market cap filter to:
+```
+{
+  "left": "MARKET CAP",
+  "operation": "BETWEEN",
+  "right": "5000,20000",
+  "period": "0"
+}
+```
+
+FOR SMALL-CAP:
+Keep as is (less than 5000)
+
+STEP 4: Run the Scan
+--------------------------------------------------------------------------------
+- Click "Scan" button
+- Results will appear in table format
+- Export to Excel using "Export" button
+
+STEP 5: Manual Verification
+--------------------------------------------------------------------------------
+Same as other platforms - manually check avoid and consider criteria
+
+
+================================================================================
+                        SCREENING WORKFLOW
+================================================================================
+
+DAY 1: Run Screeners (30-60 minutes)
+--------------------------------------------------------------------------------
+1. Screener.in - Large-cap (10 min)
+2. Screener.in - Mid-cap (10 min)
+3. Screener.in - Small-cap (10 min)
+4. Moneycontrol - Large-cap (5 min)
+5. Moneycontrol - Mid-cap (5 min)
+6. Moneycontrol - Small-cap (5 min)
+7. Chartink - Large-cap (5 min)
+8. Chartink - Mid-cap (5 min)
+9. Chartink - Small-cap (5 min)
+
+DAY 2: Consolidate Results (30 minutes)
+--------------------------------------------------------------------------------
+1. Combine all Excel files into one master sheet
+2. Remove duplicates
+3. Create unique stock list
+4. Organize by market cap
+
+DAY 3-5: Manual Verification (2-3 hours)
+--------------------------------------------------------------------------------
+For each stock:
+1. Check 5 avoid criteria (quick pass/fail)
+2. If pass, check 8 consider criteria
+3. Use MASTER framework for detailed evaluation
+4. Score each stock (target 8/8)
+
+DAY 6: Final Selection (30 minutes)
+--------------------------------------------------------------------------------
+1. Review all scored stocks
+2. Identify 8/8 pass stocks
+3. Identify 7/8 pass stocks
+4. Create final watchlist
+5. Prioritize by score
+
+
+================================================================================
+                        RESULTS TRACKING TEMPLATE
+================================================================================
+
+Create an Excel file with these columns:
+
+Column Headers:
+A: Stock Name
+B: Ticker
+C: Market Cap (Large/Mid/Small)
+D: Source (Screener/Moneycontrol/Chartink)
+E: Avoid 1 (Doubled)
+F: Avoid 2 (Declining Profits)
+G: Avoid 3 (High Debt)
+H: Avoid 4 (Poor Liquidity)
+I: Avoid 5 (Social Hype)
+J: Avoid Total (5/5)
+K: Consider 1 (Profit Growth)
+L: Consider 2 (Sales Growth)
+M: Consider 3 (Sideways)
+N: Consider 4 (Breakout)
+O: Consider 5 (Low Debt)
+P: Consider 6 (Promoter)
+Q: Consider 7 (Emerging Sector)
+R: Consider 8 (Management)
+S: Consider Total (8/8)
+T: Overall Score
+U: Decision (Approve/Reject/Watchlist)
+V: Notes
+
+
+================================================================================
+                        EXAMPLE FILLED ROW
+================================================================================
+
+Stock Name | Ticker | Market Cap | Source | Avoid1 | Avoid2 | Avoid3 | Avoid4 | Avoid5 | AvoidTotal | Cons1 | Cons2 | Cons3 | Cons4 | Cons5 | Cons6 | Cons7 | Cons8 | ConsTotal | Score | Decision | Notes
+-----------|--------|------------|--------|--------|--------|--------|--------|--------|------------|-------|-------|-------|-------|-------|-------|-------|-------|-----------|-------|----------|-------
+Dhabriya | DHABRIYA | Small | Screener | PASS | PASS | PASS | PASS | PASS | 5/5 | PASS | FAIL | PASS | PASS | FAIL | FAIL | PASS | FAIL | 4/8 | 9/13 | Watchlist | Sales growth data missing
+
+
+================================================================================
+                        EXPECTED RESULTS
+================================================================================
+
+REALISTIC EXPECTATIONS:
+- Screener.in: 50-100 stocks per category
+- Moneycontrol: 30-80 stocks per category
+- Chartink: 20-60 stocks per category
+- Total unique: 100-200 stocks
+
+After manual verification:
+- 8/8 pass: 0-5 stocks (very rare)
+- 7/8 pass: 5-15 stocks
+- 6/8 pass: 15-30 stocks
+- 5/8 pass: 30-50 stocks
+
+TARGET: Find at least 5 stocks with 7/8 or 8/8 score
+
+
+================================================================================
+                        NEXT STEPS
+================================================================================
+
+1. Open your browser and start with Screener.in
+2. Follow the steps above for each market cap category
+3. Export results to Excel
+4. Repeat for Moneycontrol and Chartink
+5. Use the tracking template to consolidate results
+6. Manually verify each stock using your MASTER framework
+7. Create your final watchlist
+
+Once you have the results, I can help you:
+- Analyze the stocks in detail
+- Create detailed evaluation reports
+- Rank stocks by score
+- Identify the best candidates
+
+================================================================================
