@@ -9,7 +9,7 @@ from functools import lru_cache
 from pathlib import Path
 from typing import Literal
 
-from pydantic import Field, validator
+from pydantic import Field, field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -50,7 +50,7 @@ class Settings(BaseSettings):
 
     secret_key: str = Field(default="change-me-in-production", description="Secret key")
 
-    @validator("log_file", "database_url", pre=True)
+    @field_validator("log_file", "database_url", mode="before")
     @classmethod
     def _ensure_absolute_paths(cls, value: str) -> str:
         """Convert relative paths to absolute paths based on project root."""
