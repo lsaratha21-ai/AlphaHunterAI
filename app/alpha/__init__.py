@@ -1,5 +1,7 @@
 """Alpha Score module with research profile scoring."""
 
+from app.alpha.before_crowd import BeforeTheCrowdFactors, BeforeTheCrowdScore
+from app.alpha.before_crowd_scorer import BeforeTheCrowdScorer
 from app.alpha.engine import AlphaScoreEngine
 from app.alpha.models import AlphaScore, AlphaScoreComponents, ComponentScore
 from app.alpha.research_engine import ResearchProfileEngine
@@ -14,4 +16,7 @@ __all__ = [
     "AlphaScorer",
     "ResearchProfileEngine",
     "ResearchScorer",
+    "BeforeTheCrowdScore",
+    "BeforeTheCrowdFactors",
+    "BeforeTheCrowdScorer",
 ]

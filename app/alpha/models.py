@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from datetime import datetime
-from typing import Any
+from app.alpha.before_crowd import BeforeTheCrowdScore
 
 
 @dataclass
@@ -130,16 +130,17 @@ class AlphaScoreComponents:
 
 @dataclass
 class AlphaScore:
-    """Alpha Score with layered scoring model."""
+    """Alpha Score with layered scoring model and research profile."""
 
     symbol: str
     overall_score: float
     components: AlphaScoreComponents
-    action: str  # buy, hold, sell
-    confidence: float  # 0 to 100
+    before_crowd: BeforeTheCrowdScore | None = None
+    current_price: float | None = None
+    action: str = "hold"  # buy, hold, sell
+    confidence: float = 50.0  # 0 to 100
     target_price: float | None = None
     stop_loss: float | None = None
-    current_price: float | None = None
     reasoning: str | None = None
     timestamp: datetime | None = None
 
@@ -149,6 +150,7 @@ class AlphaScore:
             "symbol": self.symbol,
             "overall_score": self.overall_score,
             "components": self.components.to_dict(),
+            "before_crowd": self.before_crowd.to_dict() if self.before_crowd else None,
             "action": self.action,
             "confidence": self.confidence,
             "target_price": self.target_price,

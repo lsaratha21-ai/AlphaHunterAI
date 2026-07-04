@@ -5,6 +5,8 @@ from __future__ import annotations
 from datetime import datetime
 from typing import Any
 
+from app.alpha.before_crowd import BeforeTheCrowdFactors, BeforeTheCrowdScore
+from app.alpha.before_crowd_scorer import BeforeTheCrowdScorer
 from app.alpha.models import AlphaScore, AlphaScoreComponents
 from app.alpha.research_scorers import ResearchScorer
 from app.financials import FinancialEngine, FinancialScore
@@ -19,6 +21,7 @@ class ResearchProfileEngine:
     def __init__(self) -> None:
         """Initialize the ResearchProfileEngine."""
         self.scorer = ResearchScorer()
+        self.before_crowd_scorer = BeforeTheCrowdScorer()
         self.financial_engine = FinancialEngine()
         self.technical_engine = TechnicalEngine()
         self.sector_engine = SectorRotationEngine()
@@ -36,6 +39,7 @@ class ResearchProfileEngine:
         order_book_score: float,
         risk_score: float,
         earnings_surprise_score: float,
+        before_crowd_factors: dict[str, Any] | None = None,
     ) -> AlphaScore:
         """Generate complete research profile for a stock.
 
@@ -50,9 +54,10 @@ class ResearchProfileEngine:
             order_book_score: Order book score (0-100).
             risk_score: Risk score (0-100).
             earnings_surprise_score: Earnings surprise score (0-100).
+            before_crowd_factors: Before the Crowd factors dictionary.
 
         Returns:
-            AlphaScore with research profile components.
+            AlphaScore with research profile components and Before the Crowd score.
         """
         # Calculate component scores using ResearchScorer
         financial_score = self._create_financial_score(financial_data)
@@ -103,10 +108,24 @@ class ResearchProfileEngine:
         # Generate reasoning
         reasoning = self._generate_reasoning(components, overall_score, action)
 
+        # Calculate Before the Crowd score if factors provided
+        before_crowd = None
+        if before_crowd_factors:
+            factors = BeforeTheCrowdFactors(
+                analyst_coverage=before_crowd_factors.get("analyst_coverage", 15),
+                institutional_ownership_change=before_crowd_factors.get("institutional_ownership_change", 0),
+                earnings_trend=before_crowd_factors.get("earnings_trend", "stable"),
+                order_book_trend=before_crowd_factors.get("order_book_trend", "stable"),
+                technical_breakout_stage=before_crowd_factors.get("technical_breakout_stage", "middle"),
+                valuation_score=before_crowd_factors.get("valuation_score", 50),
+            )
+            before_crowd = self.before_crowd_scorer.calculate_before_crowd_score(symbol, factors)
+
         return AlphaScore(
             symbol=symbol,
             overall_score=overall_score,
             components=components,
+            before_crowd=before_crowd,
             action=action,
             confidence=confidence,
             target_price=target_price,
